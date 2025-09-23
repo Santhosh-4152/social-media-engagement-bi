@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "1fab53a4cae3fbb2fe06",
+  "position": {
+    "x": 628.00936768149882,
+    "y": 91.428571428571416,
+    "z": 10000,
+    "height": 95.92505854800936,
+    "width": 310.25761124121777,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "social_media_engagement"
+                        }
+                      },
+                      "Property": "Month"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(social_media_engagement.Month)",
+              "nativeQueryRef": "Sum of Month"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "social_media_engagement"
+                      }
+                    },
+                    "Property": "Month"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,123 @@
+table social_media_engagement
+	lineageTag: 7a8c83f8-51fc-457c-9d82-80d7ecca2582
+
+	measure 'Total Engagement' = SUM('social_media_engagement'[Engagement Count])
+		formatString: 0
+		lineageTag: a72ee522-b2e3-4eff-83bb-ce72eb3ef5ca
+
+	measure 'Average Engagement' = AVERAGE('social_media_engagement'[Engagement Count])
+		lineageTag: c1aaaed0-6754-4ad2-945c-2582e6a9268f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Median Engagement' = MEDIAN('social_media_engagement'[Engagement Count])
+		lineageTag: 312654da-3fed-4fce-b02b-7a06d743727b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Post ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b97601e-1d3e-45cf-98e6-698a0e0cb38e
+		summarizeBy: count
+		sourceColumn: Post ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Platform
+		dataType: string
+		lineageTag: 275ed183-4f13-480d-bc97-d19ad4fb564c
+		summarizeBy: none
+		sourceColumn: Platform
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Engagement Type'
+		dataType: string
+		lineageTag: 149de7c4-301d-4bfa-84e9-b197d33bf635
+		summarizeBy: none
+		sourceColumn: Engagement Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'User ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: e0d7867d-dd11-4133-90ee-ec70e4d773c9
+		summarizeBy: count
+		sourceColumn: User ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Engagement Count'
+		dataType: int64
+		formatString: 0
+		lineageTag: 0e5afcd4-c19b-4f64-b7e7-f63da521fc1a
+		summarizeBy: sum
+		sourceColumn: Engagement Count
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Post Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 081da063-956f-4129-8058-cd6f806151a8
+		summarizeBy: none
+		sourceColumn: Post Date
+
+		variation Variation
+			isDefault
+			relationship: feee9e75-59c1-4578-acb4-bc8a7c0ba131
+			defaultHierarchy: LocalDateTable_dd941b6a-f608-4dc6-8c90-b5c72f4b8c53.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 3284f39a-07b3-4cdd-b6b4-352f1a4f462a
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: aff3fd99-7696-4ff1-a8c6-841870a0b173
+		summarizeBy: sum
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column ColumnMonth = social_media_engagement[Post Date].[Month]
+		lineageTag: abaf7134-44f7-4742-9776-f4744c5f8de0
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column ColumnYear = social_media_engagement[Post Date].[Year]
+		formatString: 0
+		lineageTag: 9e51e343-3607-45f9-a3b4-657ea7949e6b
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition social_media_engagement = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\SourceCode Day\Downloads\New folder (4)\social_media_engagement.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Post ID", Int64.Type}, {"Platform", type text}, {"Engagement Type", type text}, {"User ID", Int64.Type}, {"Engagement Count", Int64.Type}, {"Post Date", type date}}),
+				    #"Inserted Year" = Table.AddColumn(#"Changed Type", "Year", each Date.Year([Post Date]), Int64.Type),
+				    #"Inserted Month" = Table.AddColumn(#"Inserted Year", "Month", each Date.Month([Post Date]), Int64.Type)
+				in
+				    #"Inserted Month"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

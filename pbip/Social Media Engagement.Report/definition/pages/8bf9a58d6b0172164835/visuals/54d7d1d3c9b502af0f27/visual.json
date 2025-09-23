@@ -1,0 +1,150 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "54d7d1d3c9b502af0f27",
+  "position": {
+    "x": 627.84,
+    "y": 449.28000000000003,
+    "z": 6000,
+    "height": 270.72,
+    "width": 309.6,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "columnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Platform"
+                }
+              },
+              "queryRef": "social_media_engagement.Platform",
+              "nativeQueryRef": "Platform",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Engagement Type"
+                }
+              },
+              "queryRef": "social_media_engagement.Engagement Type",
+              "nativeQueryRef": "Engagement Type"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Total Engagement"
+                }
+              },
+              "queryRef": "social_media_engagement.Total Engagement",
+              "nativeQueryRef": "Total Engagement",
+              "displayName": "Total Engagement"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Average Engagement"
+                }
+              },
+              "queryRef": "social_media_engagement.Average Engagement",
+              "nativeQueryRef": "Average Engagement"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Median Engagement"
+                }
+              },
+              "queryRef": "social_media_engagement.Median Engagement",
+              "nativeQueryRef": "Median Engagement"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Type of Engagement '"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "italic": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

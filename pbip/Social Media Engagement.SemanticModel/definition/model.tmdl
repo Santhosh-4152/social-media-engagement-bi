@@ -1,0 +1,20 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["social_media_engagement"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table DateTableTemplate_7074bc07-c4ab-4868-bac6-936fb6bab616
+ref table social_media_engagement
+ref table LocalDateTable_dd941b6a-f608-4dc6-8c90-b5c72f4b8c53
+
+ref cultureInfo en-US
+

@@ -1,0 +1,166 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "b1cd4609dea3a9294453",
+  "position": {
+    "x": 0,
+    "y": 187.20000000000002,
+    "z": 0,
+    "height": 262.08,
+    "width": 319.68
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Platform"
+                }
+              },
+              "queryRef": "social_media_engagement.Platform",
+              "nativeQueryRef": "Platform",
+              "active": true
+            }
+          ]
+        },
+        "Series": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Engagement Type"
+                }
+              },
+              "queryRef": "social_media_engagement.Engagement Type",
+              "nativeQueryRef": "Engagement Type"
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Average Engagement"
+                }
+              },
+              "queryRef": "social_media_engagement.Average Engagement",
+              "nativeQueryRef": "Average Engagement"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Median Engagement"
+                }
+              },
+              "queryRef": "social_media_engagement.Median Engagement",
+              "nativeQueryRef": "Median Engagement"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "social_media_engagement"
+                    }
+                  },
+                  "Property": "Total Engagement"
+                }
+              },
+              "queryRef": "social_media_engagement.Total Engagement",
+              "nativeQueryRef": "Total Engagement"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "social_media_engagement"
+                  }
+                },
+                "Property": "Total Engagement"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Engagement by Platform and Type'"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "15D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "heading": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Heading3'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

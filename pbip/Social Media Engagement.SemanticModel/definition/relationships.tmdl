@@ -1,0 +1,5 @@
+relationship feee9e75-59c1-4578-acb4-bc8a7c0ba131
+	joinOnDateBehavior: datePartOnly
+	fromColumn: social_media_engagement.'Post Date'
+	toColumn: LocalDateTable_dd941b6a-f608-4dc6-8c90-b5c72f4b8c53.Date
+

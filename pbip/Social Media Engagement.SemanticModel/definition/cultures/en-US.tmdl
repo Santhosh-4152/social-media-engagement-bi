@@ -1,0 +1,2264 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "social_media_engagement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "social media engagement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "social_media_engagement": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "engagement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "media engagement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "social media appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "social media assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "social media commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "social media arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "media appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "media assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "media commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "media arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "social media meeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "social media rendezvous": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.post_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Post ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "post identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "post identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "post credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "upright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.platform": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Platform"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "platform": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "podium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "proposal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "manifesto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.engagement_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Engagement Type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engagement type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "engagement category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "engagement genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "engagement manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "engagement variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "engagement brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "engagement class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.user_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "User ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.engagement_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Engagement Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "engagement count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engagement amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.post_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Post Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "post moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "post period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.post_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "VariationSource": "Post Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.post_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "VariationSource": "Post Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "post yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "post moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "post period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.post_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "VariationSource": "Post Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "post qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "post moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "post period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.post_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "VariationSource": "Post Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "post mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "post moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "post period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.post_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "VariationSource": "Post Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "post day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "post date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "post moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "post period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.column_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "ColumnMonth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ColumnMonth": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "column mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Month": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.column_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "ColumnYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ColumnYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "column yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "social_media_engagement.total_engagement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Total Engagement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total engagement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engagement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate engagement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall engagement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.average_engagement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Average Engagement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average engagement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engagement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "average meeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average rendezvous": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "social_media_engagement.median_engagement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "social_media_engagement",
+			          "ConceptualProperty": "Median Engagement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "median engagement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "engagement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "median appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "median assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "median commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "median arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assignation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "commitment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "median meeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "median rendezvous": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "social_media_engagement_post_date_date_hierarchy_has_social_media_engagement_post_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement.post_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.date_hierarchy"
+			          }
+			        },
+			        "social_media_engagement.post_date.day": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement.post_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "post_date_hierarchies_have_post_days"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_post_date_date_hierarchy_has_social_media_engagement_post_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement.post_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.date_hierarchy"
+			          }
+			        },
+			        "social_media_engagement.post_date.month": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement.post_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "post_date_hierarchies_have_post_months"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_post_date_date_hierarchy_has_social_media_engagement_post_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement.post_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.date_hierarchy"
+			          }
+			        },
+			        "social_media_engagement.post_date.quarter": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement.post_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "post_date_hierarchies_have_post_quarters"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_post_date_date_hierarchy_has_social_media_engagement_post_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement.post_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.date_hierarchy"
+			          }
+			        },
+			        "social_media_engagement.post_date.year": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement.post_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "post_date_hierarchies_have_post_years"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_post_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement.post_date": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date"
+			          }
+			        },
+			        "social_media_engagement.post_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement.post_date"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "post_dates_have_post_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_median_engagement": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.median_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement.median_engagement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.median_engagement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_median_engagement"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_average_engagement": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.average_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement.average_engagement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.average_engagement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_average_engagement"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_total_engagement": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.total_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement.total_engagement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.total_engagement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_total_engagement"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_column_year": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.column_year": {
+			          "Target": {
+			            "Entity": "social_media_engagement.column_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.column_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_column_years"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_column_month": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.column_month": {
+			          "Target": {
+			            "Entity": "social_media_engagement.column_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.column_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_column_months"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.month": {
+			          "Target": {
+			            "Entity": "social_media_engagement.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_months"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.year": {
+			          "Target": {
+			            "Entity": "social_media_engagement.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_years"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_post_date": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.post_date": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_post_dates"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_engagement_count": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.engagement_count": {
+			          "Target": {
+			            "Entity": "social_media_engagement.engagement_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.engagement_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_engagement_counts"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_user_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.user_ID": {
+			          "Target": {
+			            "Entity": "social_media_engagement.user_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.user_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_user_ID"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_engagement_type": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.engagement_type": {
+			          "Target": {
+			            "Entity": "social_media_engagement.engagement_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.engagement_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_engagement_types"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_platform": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.platform": {
+			          "Target": {
+			            "Entity": "social_media_engagement.platform"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.platform"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_platforms"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_has_post_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.post_ID": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "social_media_engagement"
+			            },
+			            "Object": {
+			              "Role": "social_media_engagement.post_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "social_media_engagements_have_post_ID"
+			        }
+			      ]
+			    },
+			    "social_media_engagement_is_posted_on_post_date": {
+			      "Binding": {
+			        "ConceptualEntity": "social_media_engagement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "social_media_engagement": {
+			          "Target": {
+			            "Entity": "social_media_engagement"
+			          }
+			        },
+			        "social_media_engagement.post_date": {
+			          "Target": {
+			            "Entity": "social_media_engagement.post_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "social_media_engagement.post_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "post": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "social_media_engagement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "social_media_engagements_are_posted_on_post_dates"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
