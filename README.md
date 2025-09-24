@@ -53,7 +53,6 @@ social-media-engagement-bi/
 ├── Social Media Engagement.pbip         # Combined BI project
 ├── Social Media Engagement.pbix         # PBIX Power BI project
 ├── README.md                            # Project documentation (this file)
-└── Final Draft.docx                     # Master thesis document
 
 ⚙️ Tools & Technologies
 
